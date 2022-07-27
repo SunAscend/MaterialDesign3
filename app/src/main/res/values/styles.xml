@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Widget.App.Button.OutlinedButton.IconOnly" parent="Widget.Material3.Button.OutlinedButton">
+        <item name="iconPadding">0dp</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+        <item name="android:paddingLeft">12dp</item>
+        <item name="android:paddingRight">12dp</item>
+        <item name="android:minWidth">48dp</item>
+        <item name="android:minHeight">48dp</item>
+    </style>
+
+    <style name="Widget.App.Button.OutlinedButton.Green" parent="Widget.Material3.Button.OutlinedButton">
+        <item name="strokeColor">@color/color_F5F5F7</item>
+        <item name="strokeWidth">1dp</item>
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerRadius">4dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:padding">0dp</item>
+    </style>
+
+    <style name="Widget.App.BottomSheet.Corner" parent="Widget.Material3.BottomSheet">
+        <item name="cornerFamily">cut</item>
+        <item name="cornerRadius">10dp</item>
+    </style>
+
+    <!-- Style for the M3 Bottom Sheet. -->
+    <style name="Widget.Material3.BottomSheet" parent="Widget.MaterialComponents.BottomSheet">
+        <item name="android:elevation" tools:ignore="NewApi">@dimen/m3_bottom_sheet_elevation</item>
+        <item name="marginLeftSystemWindowInsets">true</item>
+        <item name="marginRightSystemWindowInsets">true</item>
+        <item name="paddingBottomSystemWindowInsets">true</item>
+        <item name="paddingTopSystemWindowInsets">true</item>
+        <item name="paddingLeftSystemWindowInsets">false</item>
+        <item name="paddingRightSystemWindowInsets">false</item>
+        <item name="shapeAppearance">?attr/shapeAppearanceCornerExtraLarge</item>
+        <item name="shapeAppearanceOverlay">@style/ShapeAppearanceOverlay.Material3.Corner.Top</item>
+    </style>
+
+    <style name="ShapeAppearanceOverlay.Material3.Corner.Top" parent="">
+        <item name="cornerSizeBottomLeft">0dp</item>
+        <item name="cornerSizeBottomRight">0dp</item>
+    </style>
+
+    <style name="ShapeAppearance.Material3.Corner.None" parent="ShapeAppearance.M3.Sys.Shape.Corner.None"/>
+    <style name="ShapeAppearance.Material3.Corner.ExtraSmall" parent="ShapeAppearance.M3.Sys.Shape.Corner.ExtraSmall"/>
+    <style name="ShapeAppearance.Material3.Corner.Small" parent="ShapeAppearance.M3.Sys.Shape.Corner.Small"/>
+    <style name="ShapeAppearance.Material3.Corner.Medium" parent="ShapeAppearance.M3.Sys.Shape.Corner.Medium"/>
+    <style name="ShapeAppearance.Material3.Corner.Large" parent="ShapeAppearance.M3.Sys.Shape.Corner.Large"/>
+    <style name="ShapeAppearance.Material3.Corner.ExtraLarge" parent="ShapeAppearance.M3.Sys.Shape.Corner.ExtraLarge"/>
+    <style name="ShapeAppearance.Material3.Corner.Full" parent="ShapeAppearance.M3.Sys.Shape.Corner.Full"/>
+
+</resources>

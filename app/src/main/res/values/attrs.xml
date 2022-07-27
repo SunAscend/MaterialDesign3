@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="Insets">
+        <!-- Just adding the parameters that we need for now. We can add others if we need them, but
+             ideally we'll be able to use https://github.com/chrisbanes/insetter once it's ready. -->
+        <attr name="paddingBottomSystemWindowInsets" format="boolean"/>
+        <attr name="paddingLeftSystemWindowInsets" format="boolean"/>
+        <attr name="paddingRightSystemWindowInsets" format="boolean"/>
+        <attr name="paddingTopSystemWindowInsets" format="boolean"/>
+        <attr name="marginLeftSystemWindowInsets" format="boolean"/>
+        <attr name="marginRightSystemWindowInsets" format="boolean"/>
+        <attr name="marginTopSystemWindowInsets" format="boolean"/>
+    </declare-styleable>
+
+    <attr name="shapeCornerFamily" format="enum">
+        <enum name="rounded" value="0"/>
+        <enum name="cut" value="1"/>
+    </attr>
+    <!-- Shape appearance style reference with extra small corners. -->
+    <attr name="shapeAppearanceCornerExtraSmall" format="reference"/>
+    <!-- Shape appearance style reference with small corners. -->
+    <attr name="shapeAppearanceCornerSmall" format="reference"/>
+    <!-- Shape appearance style reference with medium corners. -->
+    <attr name="shapeAppearanceCornerMedium" format="reference"/>
+    <!-- Shape appearance style reference with large corners. -->
+    <attr name="shapeAppearanceCornerLarge" format="reference"/>
+    <!-- Shape appearance style reference with extra large corners. -->
+    <attr name="shapeAppearanceCornerExtraLarge" format="reference"/>
+</resources>

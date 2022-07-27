@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/home"
+        android:icon="@mipmap/icon_czf"
+        android:enabled="true"
+        android:title="出租房" />
+
+    <item android:id="@+id/msg"
+        android:enabled="true"
+        android:icon="@mipmap/icon_dp"
+        android:title="店铺"/>
+
+    <item android:id="@+id/me"
+        android:icon="@mipmap/icon_fdc"
+        android:enabled="true"
+        android:title="房地产"/>
+</menu>
