@@ -64,7 +64,7 @@ class BottomSheetActivity : AppCompatActivity() {
                     BottomSheetBehavior.STATE_DRAGGING->{}
                     BottomSheetBehavior.STATE_HALF_EXPANDED->{}
                     BottomSheetBehavior.STATE_HIDDEN->{}
-                    BottomSheetBehavior.STATE_SETTLING->{}
+                    BottomSheetBehavior.STATE_SETTLING->{ }
                 }
             }
 
